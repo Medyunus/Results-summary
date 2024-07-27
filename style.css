@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Hanken Grotesk;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.wrapper {
+  display: flex;
+  width: 520px;
+  background-color: rgb(240, 237, 237);
+  height: 400px;
+  border-radius: 7px;
+}
+
+.container {
+  background-color: rgb(60, 71, 219);
+  width: 50%;
+  height: 400px;
+  text-align: center;
+  align-items: center;
+  line-height: 20px;
+  padding: 30px;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 30px;
+  margin-left: 30px;
+  color: rgb(238, 126, 145);
+
+}
+
+.circle {
+  position: relative;
+  left: 25px;
+  background-color: rgb(102, 104, 223);
+  width: 8em;
+  height: 130px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  align-items: center;
+  line-height: 60px;
+  margin: 10px;
+}
+
+.reaction {
+  display: flex;
+  gap: 80px;
+  color: orange;
+  background: rgb(217, 230, 241);
+  width: 213px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+
+.memory {
+  display: flex;
+  gap: 84px;
+  color: rgb(0, 17, 255);
+  width: 213px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  background: rgb(201, 226, 248);
+  border-radius: 7px;
+}
+
+.verbal {
+  display: flex;
+  gap: 99px;
+  color: rgb(42, 143, 17);
+  width: 213px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  background: rgb(193, 211, 226);
+  border-radius: 7px;
+}
+
+.visual {
+  display: flex;
+  gap: 100px;
+  color: blueviolet;
+  width: 213px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  background: rgb(124, 176, 221);
+  border-radius: 7px;
+}
+
+.btn {
+  height: 40px;
+  border-radius: 20px;
+  background: rgb(47, 47, 94);
+  border: none;
+  color: #fff;
+}
+
+#result {
+  margin-bottom: 40px;
+  margin-top: 10px;
+  font-size: 20px;
+  color: rgb(173, 177, 180);
+}
+
+#great {
+  margin-top: 25px;
+  margin-bottom: 18px;
+}
+
+#number {
+  position: relative;
+  top: 30px;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+#hundred,
+#score {
+  color: rgb(171, 176, 180);
+}
+
+@media (max-width="600px") and (min-width="420px"){
+    .wrapper{
+        flex-direction: column;
+        
+    }
+}
